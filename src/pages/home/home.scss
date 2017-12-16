@@ -1,0 +1,81 @@
+ion-header {
+   background-color: #38b100;
+}
+
+.energy{
+  color: #fff;
+  font-size: 170%;
+  margin: 0;
+  padding: 0;
+  display: inline;
+  font-family: oswald;
+  letter-spacing: -3px;
+}
+.grid{
+  color: #d0fc06;
+  font-size: 170%;
+  margin: 0;
+  padding: 0;
+  display: inline;
+  font-family: oswald;
+  letter-spacing: -3px;
+}
+
+.card-background-page {
+
+  background-color: #e7ead4;
+  //background-image: url(../assets/images/fundo.png);
+  //background-position:  bottom;
+  //background-repeat: no-repeat;
+
+   button{
+     background-color: #fff;
+     width: 90%;
+     margin: 5%;
+     height: 15%;
+     border-radius: 8px;
+     color: #38b100;
+     text-align: left;
+     padding: 0;
+  }
+  button:hover {
+    background-color: #fff;
+  }
+  button:active {
+    background-color: #fff;
+  }
+
+  .icone-nome{
+      color: #38b100;
+      margin-left: 0%;
+      font-size: 230%;
+  }
+
+  .icone-seta{
+        color: #ccc;
+        margin-left: 80%;
+        font-size: 100%;
+  }
+
+  .card-title {
+    position: absolute;
+    top: 30%;
+    font-size: 1.4em;
+    width: 100%;
+    color: #38b100;
+    font-family: oswald;
+    letter-spacing: -1px;
+    padding-left: 12%;
+    font-weight: bold;
+  }
+
+  .card-subtitle {
+    position: absolute;
+    font-size: 0.8em;
+    top: 60%;
+    width: 100%;
+    color: #b5b5b5;
+    padding-left: 12%;
+  }
+
+}

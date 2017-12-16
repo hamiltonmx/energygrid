@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-navbar color="energygrid">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      <span class="energy">Configurações</span>
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="graficos">
+
+
+<ion-card>
+  <ion-card-header>
+    Notificações
+  </ion-card-header>  
+  <ion-item>
+    <ion-label> Permitir notificações</ion-label>
+    <ion-toggle checked="true"></ion-toggle>
+  </ion-item>
+</ion-card>
+  
+
+<ion-card>
+  <ion-card-header>
+    Configurar Limite
+  </ion-card-header>
+  <ion-item>
+    <ion-range min="100" max="800" step="100" snaps="true" color="secondary" [(ngModel)]="singleValue4">
+        <ion-label range-left>100</ion-label>
+        <ion-label range-right>800</ion-label>
+    </ion-range>
+  </ion-item>
+</ion-card>
+
+</ion-content>

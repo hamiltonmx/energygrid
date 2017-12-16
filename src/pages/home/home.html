@@ -1,0 +1,46 @@
+<ion-header no-border>
+  <ion-navbar transparent color="energygrid">
+    <button ion-button menuToggle>
+      <ion-icon name="md-menu"></ion-icon>
+    </button>
+    <ion-title>
+      <span class="energy">ENERGY</span>
+      <span class="grid">GRID</span>
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="card-background-page">
+
+  <button ion-button block (click)="Dicas()"> 
+    <div class="card-title">DICAS</div>
+    <div class="card-subtitle">Veja dicas de economia de energia</div>
+    <ion-icon class="icone-nome" name="ios-chatbubbles"></ion-icon>
+    <ion-icon class="icone-seta" name="ios-arrow-forward"></ion-icon>
+  </button>
+   
+
+  <button ion-button block (click)="Graficos()">
+    <div class="card-title">CONSUMOS</div> 
+    <div class="card-subtitle">Acompanhe o histórico dos gastos</div>
+    <ion-icon class="icone-nome" name="ios-bulb"></ion-icon>
+    <ion-icon class="icone-seta" name="ios-arrow-forward"></ion-icon>
+  </button>
+
+  <!--
+  <button ion-button block (click)="Alertas()">
+    <div class="card-title">ALERTAS</div>
+    <div class="card-subtitle">Configure alertas para controlar gastos</div>
+    <ion-icon class="icone-nome" name="ios-notifications"></ion-icon>
+    <ion-icon class="icone-seta" name="ios-arrow-forward"></ion-icon>
+  </button>
+  -->
+
+  <button ion-button block (click)="Config()">
+    <div class="card-title">CONFIGURAÇÕES</div>
+    <div class="card-subtitle">Selecione suas preferências</div>
+    <ion-icon class="icone-nome" name="md-settings"></ion-icon>
+    <ion-icon class="icone-seta" name="ios-arrow-forward"></ion-icon>
+  </button>
+
+</ion-content>

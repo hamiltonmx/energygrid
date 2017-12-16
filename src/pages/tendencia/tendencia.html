@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-navbar color="energygrid">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>  
+    <ion-title>
+      <span class="energy">Consumos</span>
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content class="graficos">
+
+
+<ion-card class="card">
+  <ion-card-header>
+    Tendência Histórica
+  </ion-card-header>
+  <ion-card-content>
+    <chart [options]="chartOptions" style="display: block;" type="chart"></chart>
+  </ion-card-content>
+</ion-card>  
+
+  
+
+</ion-content>

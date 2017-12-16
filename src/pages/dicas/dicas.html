@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-navbar color="energygrid">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      <span class="energy">Listar Dicas</span>
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="graficos">
+<ion-card class="card-dicas"  *ngFor="let dica of dicas">
+  <img src="{{dica.imagem}}"/>    
+  <ion-card-content>
+    <ion-card-title>{{dica.titulo}}</ion-card-title>
+    <p><ion-icon name="md-arrow-dropright"></ion-icon> {{dica.mensagem}}</p>      
+  </ion-card-content>
+</ion-card>
+
+</ion-content>
+

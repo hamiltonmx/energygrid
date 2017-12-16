@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-navbar color="energygrid">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      <span class="energy">Alertas</span>
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="graficos">
+<ion-card class="card-dicas"  *ngFor="let leitura of leituras">
+  <ion-card-content>
+    <ion-card-title>{{leitura.data_leitura | date: 'dd/MM/yyyy' }}</ion-card-title>
+    <!--<p>{{leitura.id_empresa}}</p>-->
+    <p>{{leitura.hora_leitura}}</p>   
+  </ion-card-content>
+</ion-card>
+
+</ion-content>
